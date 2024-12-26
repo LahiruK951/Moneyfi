@@ -8,8 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.moneyfi.data.AppDatabase
-import com.example.moneyfi.data.repository.TransactionRepository
+import com.example.moneyfi.MoneyfiApplication
 import com.example.moneyfi.databinding.FragmentHomeBinding
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
@@ -24,7 +23,7 @@ class HomeFragment : Fragment() {
 
     private val viewModel: HomeViewModel by viewModels {
         HomeViewModel.Factory(
-            TransactionRepository(AppDatabase.getDatabase(requireContext()).transactionDao())
+            (requireActivity().application as MoneyfiApplication).transactionRepository
         )
     }
 
