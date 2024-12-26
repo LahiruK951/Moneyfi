@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         binding.bottomNavigation.setupWithNavController(navController)
 
         binding.fabAdd.setOnClickListener {
-            // TODO: Handle FAB click
+            navController.navigate(R.id.action_homeFragment_to_addTransactionFragment)
         }
     }
 }

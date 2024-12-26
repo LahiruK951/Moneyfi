@@ -11,6 +11,15 @@
         <!-- Add any navigation actions here later -->
     </fragment>
 
+    <fragment
+        android:id="@+id/addTransactionFragment"
+        android:name="com.example.moneyfi.ui.transaction.AddTransactionFragment"
+        android:label="Add Transaction">
+        <action
+            android:id="@+id/action_homeFragment_to_addTransactionFragment"
+            app:destination="@id/addTransactionFragment" />
+    </fragment>
+
     <!-- Other fragments will be added here later -->
 
 </navigation>
