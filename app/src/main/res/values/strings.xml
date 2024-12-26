@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moneyfi</string>
+    <string name="title_home">Home</string>
+    <string name="title_analysis">Analysis</string>
+    <string name="title_accounts">Accounts</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="transfer">Transfer</string>
+    <string name="balance">Balance</string>
+    <string name="category">Category</string>
+    <string name="account">Account</string>
+    <string name="description">Description</string>
+    <string name="amount">Amount</string>
+    <string name="date">Date</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>
