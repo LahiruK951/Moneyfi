@@ -20,6 +20,12 @@
             app:destination="@id/addTransactionFragment" />
     </fragment>
 
+    <fragment
+        android:id="@+id/accountsFragment"
+        android:name="com.example.moneyfi.ui.accounts.AccountsFragment"
+        android:label="Accounts">
+    </fragment>
+
     <!-- Other fragments will be added here later -->
 
 </navigation>

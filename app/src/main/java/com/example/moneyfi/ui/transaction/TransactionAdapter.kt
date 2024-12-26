@@ -1,4 +1,4 @@
-package com.example.moneyfi.ui.home
+package com.example.moneyfi.ui.transaction
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

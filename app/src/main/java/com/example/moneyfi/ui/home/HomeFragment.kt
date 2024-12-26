@@ -10,6 +10,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.moneyfi.MoneyfiApplication
 import com.example.moneyfi.databinding.FragmentHomeBinding
+import com.example.moneyfi.ui.transaction.TransactionAdapter
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
 import java.util.Locale
