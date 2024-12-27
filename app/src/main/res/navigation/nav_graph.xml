@@ -8,16 +8,15 @@
         android:id="@+id/homeFragment"
         android:name="com.example.moneyfi.ui.home.HomeFragment"
         android:label="Home">
-        <!-- Add any navigation actions here later -->
+        <action
+            android:id="@+id/action_homeFragment_to_addTransactionFragment"
+            app:destination="@id/addTransactionFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/addTransactionFragment"
         android:name="com.example.moneyfi.ui.transaction.AddTransactionFragment"
         android:label="Add Transaction">
-        <action
-            android:id="@+id/action_homeFragment_to_addTransactionFragment"
-            app:destination="@id/addTransactionFragment" />
     </fragment>
 
     <fragment
